@@ -1,6 +1,6 @@
 <template>
-    <default-field :field="field" :errors="errors" :full-width-content="true">
-        <template slot="field">
+    <DefaultField :field="field" :errors="errors" :full-width-content="true">
+        <template #field>
             <div class="rounded-lg form-control auto-height">
                 <ckeditor
                     :editor="editor"
@@ -13,7 +13,7 @@
                 />
             </div>
         </template>
-    </default-field>
+    </DefaultField>
 </template>
 
 <script>
