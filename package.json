@@ -18,8 +18,8 @@
         "vue-loader": "^16.8.3"
     },
     "dependencies": {
-        "@ckeditor/ckeditor5-build-classic": "^34.1.0",
-        "@ckeditor/ckeditor5-vue": "^4.0.0",
+        "@ckeditor/ckeditor5-build-classic": "^44.1.0",
+        "@ckeditor/ckeditor5-vue": "^7.3.0",
         "vue": "^3.0"
     }
 }
