@@ -26,7 +26,7 @@ export default {
     mixins: [FormField, HandlesValidationErrors],
 
     components: {
-        ckeditor: Ckeditor.component
+        ckeditor: CKEditor.component
     },
 
     props: ['resourceName', 'resourceId', 'field'],
