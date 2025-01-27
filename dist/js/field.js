@@ -74,7 +74,7 @@ Object(function webpackMissingModule() { var e = new Error("Cannot find module '
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mixins: [Object(function webpackMissingModule() { var e = new Error("Cannot find module 'laravel-nova'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), Object(function webpackMissingModule() { var e = new Error("Cannot find module 'laravel-nova'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())],
   components: {
-    ckeditor: _ckeditor_ckeditor5_vue__WEBPACK_IMPORTED_MODULE_1__.Ckeditor.component
+    ckeditor: Ckeditor.component
   },
   props: ['resourceName', 'resourceId', 'field'],
   data: function data() {
