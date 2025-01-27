@@ -23,6 +23,11 @@ class NovaExtension {
             vue: 'Vue',
         }
 
+        webpackConfig.resolve.alias = {
+            ...(webpackConfig.resolve.alias || {}),
+            'laravel-nova': path.join(__dirname, '../../laravel/nova/resources/js/mixins/packages.js'),
+        }
+
         webpackConfig.output = {
             uniqueName: this.name,
         }
